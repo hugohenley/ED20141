@@ -1,0 +1,1 @@
+/* Recebe uma lista encadeada e um valor inteiro n e retira da lista todas as ocorrencias de n e retorna a lista resultante*/
