@@ -1,7 +1,7 @@
 struct btree {
 	char info;
-	struct arvore* esq;
-	struct arvore* dir;
+	struct btree* esq;
+	struct btree* dir;
 };
 
 typedef struct btree BTree;

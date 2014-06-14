@@ -10,7 +10,7 @@ int arv_vazia(BTree* a) {
 	return a == NULL;
 }
 
-BTree* btree_cria_subarvore(boolean b, Btree* sae, Btree* sad) {
+BTree* btree_cria_subarvore(bool b, Btree* sae, Btree* sad) {
 	BTree* p = (BTree*) malloc(sizeof(Btree));
 	p->info = b;
 	p->esq = sae;

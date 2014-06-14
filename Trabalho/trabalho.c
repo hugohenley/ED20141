@@ -17,10 +17,19 @@ int main(void) {
 		printf("\n");
 	}
 	
+	BTree* btree = (BTree*) malloc(sizeof(BTree));
+	
 	/*
-	BTree* btree = btree_cria_vazia();
+	
+	btree = btree_cria_vazia();
+	
 	btree_cria_subarvore(boolean b, Btree* sae, Btree* sad);
-	btree_imprime_subconjuntos(BTree* tree, int* conjunto);
-	btree_limpa_memoria(Btree* tree)*/
+
+	btree_imprime_subconjuntos(btree, conjunto);
+
+	btree_limpa_memoria(btree);
+
+	*/
+
 	
 }
