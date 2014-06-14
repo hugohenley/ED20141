@@ -19,6 +19,10 @@ int main(void) {
 	
 	BTree* btree = (BTree*) malloc(sizeof(BTree));
 	
+	printf("==========================================================================================================================================\n");
+	printf("Faltou implementar as funções btree_constroi_subconjuntos e btree_imprime_subconjuntos para fazer funcionar por completo...\n");
+	printf("==========================================================================================================================================\n");
+	
 	/*
 	
 	btree = btree_cria_vazia();

@@ -27,8 +27,14 @@ void btree_limpa_memoria(Btree* tree) {
 	return NULL;
 }
 
-BTree* btree_constroi_subconjuntos(int tamanho) {
-	return NULL;
+BTree* btree_constroi_subconjuntos(int tamanho, BTree *a) {
+	if (tamanho == 0) {
+		return;
+	} else {
+		btree_cria_subarvore(a->info, a->esq, a->dir);
+	}
+	btree_constroi_subconjuntos(tamanho--, a->esq);
+	btree_constroi_subconjuntos(tamanho--, a->dir);
 }
 
 void btree_imprime_subconjuntos(BTree* tree, int* conjunto) {

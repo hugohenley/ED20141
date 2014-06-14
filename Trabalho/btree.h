@@ -13,6 +13,6 @@ BTree* btree_cria_subarvore(bool b, BTree* sae, BTree* sad);
 
 void btree_limpa_memoria(BTree* tree);
 
-BTree* btree_constroi_subconjuntos(int tamanho);
+BTree* btree_constroi_subconjuntos(int tamanho, BTree *a);
 
 void btree_imprime_subconjuntos(BTree* tree, int* conjunto);
